@@ -43,7 +43,6 @@
     [self.clLocationManager location];
     //request permission of location Note:- don't forget to add permission to info file
     [self.clLocationManager requestAlwaysAuthorization];
-    //ana btb2 wra elmo3ida hklmk ya ru7i mstniki ya 324
     
 }
 
