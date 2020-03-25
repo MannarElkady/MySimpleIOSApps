@@ -42,7 +42,12 @@
     //to get user location
     [self.clLocationManager location];
     //request permission of location Note:- don't forget to add permission to info file
+<<<<<<< HEAD
     [self.clLocationManager requestAlwaysAuthorization];    
+=======
+    [self.clLocationManager requestAlwaysAuthorization];
+    
+>>>>>>> c3ac0c970572d9125bc0299036ec17d5941594f8
 }
 
 -(void) handleTouchMapGesture:(UIGestureRecognizer *)gestureRecognizer{
